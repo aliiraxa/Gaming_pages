@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  
+      background-image: url("img/b-g.jpg");
+      background-repeat: no-repeat;
+	    background-position: center center;
+      background-size: 100% 100%;
+      display: flex;
+     
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+
+  }
+  .main
+  {
+    margin-bottom: 5%;
+  }
+  
+  .logo img
+  {
+   
+    width: 8.2%;
+    top: 30px;
+    margin-left: 4%;
+    position: absolute;
+
+  }
+
+  .right img
+  {
+   
+    width: 15%;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+
+  }
+
+  .left img
+  {
+   
+    width: 40%;
+   margin-left: -100%;
+   margin-top: -30%;
+    position: relative;
+
+  }
+  h1{
+    font-size: 5.2vw;
+    margin-top: 21%;
+    margin-left: 7%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p
+  {
+    font-size: 12px;
+    margin-top: 6.7%;
+    line-height: 27px;
+    margin-left: 7%;
+    width: 75%;
+  }
+ 
+  .ask
+  {
+    background-color: white;
+    width: 300px;
+    border: 2px solid red;
+    text-align: left;
+    margin-top: -10px;
+ 
+  }
+  .ask h2
+  {
+    color: #040e4f;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 20px;
+    margin-top: 30px;
+    
+  }
+ 
+  .turbo 
+  {
+    background-color: white;
+    width: 300px;
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 200px;
+    box-shadow: 0 8px 6px -6px black;
+  }
+  
+  .turbo h2
+  {
+    color: #040e4f;
+    font-size: 25px;
+    margin: 20px;
+    margin-top: 30px;
+    text-align: left;
+    
+  }
+  button
+  {
+    background-color: #050f50;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    padding: 14px 70px;
+    border-radius: 5px;
+    margin: 25px 20px;
+    margin-bottom: 45px;
+  }
+  h3
+  {
+    color:#6a6a6a;
+    margin: 0px 20px;
+    font-size: 20px;
+    line-height: 25px;
+    display: block;
+    text-align: left;
+  }
+
+
+  button:hover
+  {
+    background-color: #020727;
+    border: none;
+  }
+
+  .man
+  {
+    margin-top: 2px;
+    height: 203px !important;
+    position: relative;
+    text-align: center;
+  }
+
+  .mylogo
+  {
+    position: relative;
+    z-index: -1;
+    margin-left: 70%;
+    margin-top: -50%;
+  }
+
